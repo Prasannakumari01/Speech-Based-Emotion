@@ -1,6 +1,6 @@
 # 🎙️ Speech-Based Emotion Recognition System 🧠
 
-## 📖 Project Overview
+## 📌 Project Overview
 The **Speech-Based Emotion Recognition System** is a full-stack application that detects human emotions from spoken audio.  
 It processes speech signals, extracts meaningful audio features, and predicts emotional states through an intelligent analysis pipeline.
 
@@ -8,7 +8,7 @@ The system integrates **audio processing**, **machine learning logic**, and a **
 
 ---
 
-## 🎯 Objective
+## 🎯 Problem Satement
 Understanding emotions from speech is essential in domains such as healthcare, human–computer interaction, and virtual assistants.  
 This project focuses on automatically identifying emotional states from speech audio, reducing dependency on manual interpretation.
 
