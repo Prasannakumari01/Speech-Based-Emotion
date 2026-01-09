@@ -9,8 +9,10 @@ The system integrates **audio processing**, **machine learning logic**, and a **
 ---
 
 ## 🎯 Problem Satement
-Understanding emotions from speech is essential in domains such as healthcare, human–computer interaction, and virtual assistants.  
-This project focuses on automatically identifying emotional states from speech audio, reducing dependency on manual interpretation.
+Human emotions are a fundamental part of effective communication, yet most conventional systems focus only on the spoken words and ignore the emotional tone behind them. As a result, machines often fail to understand the speaker’s emotional state, leading to limited and less natural human–computer interaction.
+
+This project addresses this limitation by developing a system that can automatically analyze speech signals and identify the underlying emotions. By extracting meaningful audio features and applying intelligent analysis techniques, the system aims to accurately recognize emotional states from spoken audio and enhance emotion-aware applications.
+
 
 ---
 
