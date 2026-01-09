@@ -1,50 +1,62 @@
-# Speech-Based Emotion Recognition System 🎙️🧠
+# 🎙️ Speech-Based Emotion Recognition System 🧠
 
-## 📌 Project Overview
-The **Speech-Based Emotion Recognition System** is a full-stack application designed to identify human emotions from speech signals.  
-It analyzes audio input, extracts meaningful features, and predicts emotional states such as **Happy, Sad, Angry, Neutral, Fear, and Surprise**.
+## 📖 Project Overview
+The **Speech-Based Emotion Recognition System** is a full-stack application that detects human emotions from spoken audio.  
+It processes speech signals, extracts meaningful audio features, and predicts emotional states through an intelligent analysis pipeline.
 
-This project combines **audio signal processing**, **machine learning concepts**, and a **modern web interface** to provide an end-to-end emotion recognition solution.
-
----
-
-## 🎯 Problem Statement
-Human emotions play a crucial role in communication. Traditional systems fail to understand emotional context from speech.  
-This project aims to bridge that gap by building a system that can automatically recognize emotions from spoken audio.
+The system integrates **audio processing**, **machine learning logic**, and a **modern web interface** to provide an end-to-end solution for emotion detection from voice input.
 
 ---
 
-## 🧠 Emotions Detected
-- Happy  
-- Sad  
-- Angry  
-- Neutral  
-- Fear  
-- Surprise  
-
-*(The model can be extended to support more emotions.)*
+## 🎯 Objective
+Understanding emotions from speech is essential in domains such as healthcare, human–computer interaction, and virtual assistants.  
+This project focuses on automatically identifying emotional states from speech audio, reducing dependency on manual interpretation.
 
 ---
 
-## 🏗️ System Architecture
-The system follows a **client–server architecture**:
+## 😊 Supported Emotions
+The system is capable of recognizing the following emotions:
+- Happy
+- Sad
+- Angry
+- Neutral
+- Fear
+- Surprise
 
-1. **Frontend**
-   - User interface for uploading or recording speech
-   - Displays detected emotion and analysis results
-   - Has appointment booking/cancelling option
-   - Explore available Doctors
-   - Schedule appointments
+*(The architecture supports easy extension to additional emotions.)*
 
-2. **Backend**
-   - Handles audio processing
-   - Communicates with the emotion recognition model
-   - Returns predicted emotion to the frontend
+---
 
-3. **Emotion Recognition Pipeline**
-   - Audio preprocessing
-   - Feature extraction
-   - Emotion classification
+## 🧩 System Workflow
+The application follows a **client–server architecture** with a structured processing pipeline:
+
+1. User uploads or records a speech sample via the frontend
+2. Audio file is sent to the backend server
+3. Audio preprocessing is performed
+4. Relevant speech features are extracted
+5. Emotion classification logic predicts the emotion
+6. Predicted emotion is returned to the frontend and displayed
+
+---
+
+## 🏗️ Architecture Components
+
+### Frontend
+- Provides a user-friendly interface
+- Allows speech upload or recording
+- Displays detected emotion results
+- Supports appointment scheduling and doctor exploration
+
+### Backend
+- Manages API requests
+- Handles audio processing
+- Connects with emotion analysis logic
+- Sends predictions back to the client
+
+### Emotion Analysis Pipeline
+- Audio normalization and cleaning
+- Feature extraction from speech signals
+- Emotion classification using trained logic/models
 
 ---
 
@@ -53,28 +65,28 @@ The system follows a **client–server architecture**:
 ### Frontend
 - React
 - TypeScript
-- HTML5, CSS3
+- HTML5 & CSS3
 - Vite
-- 
+
 ### Backend
 - Node.js
 - Express.js
-- RESTful API for audio processing and emotion inference
+- RESTful APIs
 
-### Machine Learning & Audio Processing
+### Audio & ML Processing
 - Python
 - Librosa
-- Machine Learning / Deep Learning models
+- Machine Learning / Deep Learning concepts
 
-### Tools
+### Tools & Utilities
 - Git & GitHub
 - Git Bash
-- REST APIs
+- API testing tools
 
 ---
 
-## 📂 Project Structure
-Speech-based-Emotion/
+## 📁 Project Structure
+Speech-Based-Emotion/
 │
 ├── backend/
 │ ├── routes/
@@ -95,57 +107,50 @@ Speech-based-Emotion/
 │ └── .gitkeep
 │
 ├── README.md
-├── package.json
-└── .gitignore
-
-yaml
-Copy code
+├── .gitignore
+└── package.json
 
 ---
 
-## ⚙️ Installation & Setup
+## ⚙️ Setup Instructions
 
 ### Prerequisites
-- Node.js (v18+ recommended)
+- Node.js (v18 or above)
 - Python 3.9+
 - Git
 
 ---
 
-### Clone the Repository
+### Step 1: Clone Repository
 ```bash
-git clone https://github.com/AmulyaEragani/Speech-based-Emotion.git
-cd Speech-based-Emotion
-Frontend Setup
-bash
-Copy code
+git clone https://github.com/Prasannakumari01/Speech-Based-Emotion.git
+cd Speech-Based-Emotion
+###  Step 2: Frontend Setup
+```bash
 cd project
 npm install
 npm run dev
-Backend Setup
-bash
-Copy code
+### Step 3: Backend Setup
+```bash
 cd backend
 npm install
 npm start
 
----
+🚀 Application Flow
 
-🚀 How It Works
-User uploads or records speech input
+Launch frontend and backend servers
 
-Backend preprocesses the audio
+Upload or record speech input
 
-Features are extracted from the speech signal
+Backend processes the audio
 
-Emotion recognition model predicts the emotion
+Emotion is analyzed and predicted
 
-Result is sent back to the frontend for display
+Result is displayed on the frontend
 
----
+📊 Model Evaluation
 
-📊 Evaluation Metrics
-The emotion recognition model can be evaluated using:
+The emotion recognition logic can be evaluated using:
 
 Accuracy
 
@@ -157,42 +162,35 @@ F1-Score
 
 Confusion Matrix
 
----
+🔐 Data & Privacy
 
-🔐 Security & Privacy
-Audio files are processed securely
+Audio data is handled securely
 
-No sensitive user data is permanently stored
+No unnecessary user data is stored
 
-Designed with privacy-aware principles
+Designed with privacy-conscious practices
 
----
+🔮 Future Enhancements
 
-📈 Future Enhancements
 Real-time emotion detection
 
 Multilingual speech support
 
-Emotion intensity detection
+Emotion intensity analysis
 
 Mobile application integration
 
-Improved model accuracy using deep learning
+Enhanced prediction accuracy
 
----
-
-👨‍💻 Contributor
-Amulya Eragani
+👥 Contributors
+Prasanna Kumari Guntoju
 
 Contributions are welcome. Feel free to fork the repository and submit pull requests.
 
----
-
 📄 License
+
 This project is licensed under the MIT License.
 
-📬 Contact
-GitHub: https://github.com/AmulyaEragani
+✨ Closing Note
 
-“Understanding human emotions through speech using intelligent systems.”
----
+Transforming speech signals into meaningful emotional insights through intelligent systems.
