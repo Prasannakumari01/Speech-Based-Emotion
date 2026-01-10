@@ -1,4 +1,15 @@
 # 🎙️ Speech-Based Emotion Recognition System 🧠
+![Python](https://img.shields.io/badge/python-3.12-blue)
+![React](https://img.shields.io/badge/react-18.2-blue?logo=react)
+![TypeScript](https://img.shields.io/badge/typescript-5.2-blue?logo=typescript)
+![Node.js](https://img.shields.io/badge/node.js-20-green?logo=node.js)
+![Express](https://img.shields.io/badge/express.js-4.18-lightgrey)
+![Vite](https://img.shields.io/badge/vite-4.5-purple)
+![Machine Learning](https://img.shields.io/badge/ML-DL-red)
+![Librosa](https://img.shields.io/badge/librosa-audio-yellow)
+![GitHub stars](https://img.shields.io/github/stars/Prasannakumari01/Speech-Based-Emotion?style=social)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 
 ## 📌 Project Overview
 The **Speech-Based Emotion Recognition System** is a full-stack application that detects human emotions from spoken audio.  
